@@ -1,0 +1,79 @@
+Level 0:
+	1. Print out welcome page and get the number of books
+
+	2. Read in the first name, last name, and title of the book
+
+	3. Read in choice by the user
+
+	4. While the user has not input letter Q
+
+		5. Do command chosen by user 
+			A. Sort by last name, print out
+			B. Sort by book title, print out
+			Q. Quit
+
+Level 1:
+
+
+
+	2. Read in the first name, last name, and title of the book
+		O. take in lname, fname, getline(title)
+		A. Create Temp cstring to hold all values of lname, fname, title
+		B. Copy Temp cstring into array nameTitle[book]
+		C. Edit Temp cstring to hold all values of title, lname, fname
+		D. Copy Temp cstring into array titleName[book]
+
+	5. Do command chosen by user
+		
+		A. Selection Sort by last name
+		
+			2. Compare each value to one another, starting with the first book inputted, to the last
+			3. Swap the positions of the array in accordance with the sort
+		B. Selection Sort by book title
+
+			2. Compare each value to another, starting with the first lname
+			3. Swap the positions of each array according to sort
+		C. Quit
+
+Level 2:
+	
+		5.A.2 Compare each value to one another, starting with the first inputted.
+			
+			1. Create value to store lowest value's index in array
+			2. Create temp cstring to store cstring being compared 
+
+			3. enter nested for loop to compare each entry, one by one, with each other entry, until the whole list is sorted
+				
+				for(i = 0, i < totalNumberOfElements, i++)
+
+					for(j = i+1, j < totalNumberOfElements, j++)
+
+						if cstring[j] < temp, cstring[j] is new temp
+			
+			4. swap temp with cstring[i], the starting index value
+		5.B.2
+			
+			1. Create value to store lowest value's index in array
+			2. Create temp cstring to store cstring being compared 
+
+			3. enter nested for loop to compare each entry, one by one, with each other entry, until the whole list is sorted
+				
+				for(i = 0, i < totalNumberOfElements, i++)
+
+					for(j = i+1, j < totalNumberOfElements, j++)
+
+						if cstring[j] < temp, cstring[j] is new temp
+			
+			4. swap temp with cstring[i], the starting index value
+
+Level 3:
+
+
+		5.A.2.4 swap function with two arguments cstring1, cstring2
+
+			1. cstringTemp = cstring1
+			2. cstring1 = cstring2
+			3. cstring2 = cstringTemp
+
+
+			
